@@ -2,6 +2,11 @@
 
 Performant implementation of CUDA GEMM kernel written from scratch. The goal was to reproduce Simon Boehm's results and document my learnings: https://giterator.github.io/blog/posts/gemm/
 
+## Approach
+<div style="background-color: white; padding: 10px; display: inline-block;">
+  <img src="approach.png" alt="approach">
+</div>
+
 ## Results
 The kernel was run on a Tesla T4 GPU for a variety of matrix sizes and the performance relative to cuBLAS is shown below:
 
